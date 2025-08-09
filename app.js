@@ -5,11 +5,11 @@ var guessnumber = Math.floor(Math.random() * 20) + 1;
 var choosenumber = prompt("You are Guess the number between 1 to 20");
 
 if (choosenumber === guessnumber) {
-    alert("Many Congraulats! Guess the Right Number..")
+    document.write("Many Congraulats! Guess the Right Number..")
 } else if (choosenumber > guessnumber) {
-    alert("To high Closs this Number! "  + guessnumber)
+    document.write("To high Closs this Number! "  + guessnumber)
 } else if (choosenumber > guessnumber) {
-    alert("To low Closs this Number! "  + guessnumber)
+    document.write("To low Closs this Number! "  + guessnumber)
 }else{
-    alert("Try Again Your Guess is incorect!")
+    document.write("Try Again Your Guess is incorect!")
 }
